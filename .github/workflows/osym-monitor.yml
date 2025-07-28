@@ -50,7 +50,7 @@ jobs:
     - name: ÖSYM Monitor'u çalıştır
       env:
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        SLACK_CHANNEL: '#ul-dev-kariyernet'
+        SLACK_CHANNEL: '#osym-takip'
         TEST_MODE: ${{ github.event.inputs.test_mode || 'false' }}
       run: python osym_monitor.py
 
