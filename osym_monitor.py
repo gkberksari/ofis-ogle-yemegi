@@ -223,7 +223,7 @@ class GitHubActionsOSYMMonitor:
                 'url': url,
                 'count': current_count,
                 'last_check': datetime.now().isoformat(),
-                'page_name': "YKS Duyurular" if "33351" in url else "YKS Belgeler"
+                'page_name': "YKS Kılavuzlar" if "33351" in url else "YKS Sayısal Bilgiler"
             }
         
         # Cache'i kaydet
