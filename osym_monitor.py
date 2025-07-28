@@ -200,7 +200,7 @@ class GitHubActionsOSYMMonitor:
             print(f"   📊 Önceki: {old_count}, Şu anki: {current_count}")
             
             # Değişiklik kontrolü
-            if old_count > 0 and current_count > old_count:
+            if True;
                 print(f"   🚨 DEĞİŞİKLİK TESPİT EDİLDİ! (+{current_count - old_count})")
                 
                 if not self.test_mode:
