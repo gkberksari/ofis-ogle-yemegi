@@ -3,7 +3,7 @@ name: ÖSYM YKS Monitor
 on:
   schedule:
     # Her 30 dakikada bir çalış (UTC saat)
-    - cron: '*/30 * * * *'
+    - cron: '*/10 * * * *'
   
   # Manuel tetikleme için
   workflow_dispatch:
