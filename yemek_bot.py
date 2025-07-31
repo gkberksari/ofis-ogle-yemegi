@@ -52,12 +52,12 @@ class OfisYemekBot:
             print(f"✅ {today_key} için menü bulundu!")
             return menu
         
-        # Hafta sonu kontrolü
+        # Hafta sonu kontrolü - Sessiz geç
         if self.today.weekday() >= 5:  # Cumartesi=5, Pazar=6
-            print("📅 Hafta sonu - normal yemek servisi yok")
+            print("📅 Hafta sonu - mesaj gönderilmiyor")
             return None
         
-        print(f"❌ {today_key} için menü bulunamadı")
+        print(f"❌ {today_key} için menü bulunamadı - mesaj gönderilmiyor")
         return None
     
     def send_slack_notification(self, menu: Dict) -> bool:
@@ -66,9 +66,10 @@ class OfisYemekBot:
             print("❌ Slack webhook URL bulunamadı!")
             return False
         
-        # Özel durum kontrolü (resmi tatil)
+        # Özel durum kontrolü (resmi tatil) - Sadece pass, mesaj gönderme
         if menu.get('ozel_durum'):
-            return self.send_special_message(menu)
+            print(f"ℹ️ Özel durum tespit edildi: {menu.get('ozel_durum')} - Mesaj gönderilmiyor")
+            return True
         
         # Normal menü mesajı
         blocks = [
@@ -187,61 +188,9 @@ class OfisYemekBot:
             print(f"❌ Slack gönderim hatası: {e}")
             return False
     
-    def send_special_message(self, menu: Dict) -> bool:
-        """Özel durum mesajı gönder (resmi tatil vs.)"""
-        if menu.get('ozel_durum') == "RESMİ TATİL":
-            message = f"🏛️ *{menu['tarih']}*\n\n🎉 Bugün resmi tatil!\nYemek servisi bulunmamaktadır.\n\n🏡 İyi tatiller!"
-        else:
-            message = f"ℹ️ *{menu['tarih']}*\n\n{menu.get('ozel_durum', 'Özel durum')}"
-        
-        payload = {
-            "channel": self.slack_channel,
-            "username": "Yemek Bot 🍽️",
-            "icon_emoji": ":calendar:",
-            "text": message
-        }
-        
-        try:
-            response = requests.post(self.slack_webhook, json=payload, timeout=10)
-            return response.status_code == 200
-        except:
-            return False
+
     
-    def send_no_menu_message(self) -> bool:
-        """Menü yoksa bilgi mesajı gönder"""
-        if not self.slack_webhook:
-            return False
-        
-        day_name = self.today.strftime('%A')
-        turkish_days = {
-            'Monday': 'Pazartesi',
-            'Tuesday': 'Salı', 
-            'Wednesday': 'Çarşamba',
-            'Thursday': 'Perşembe',
-            'Friday': 'Cuma',
-            'Saturday': 'Cumartesi',
-            'Sunday': 'Pazar'
-        }
-        
-        day_tr = turkish_days.get(day_name, day_name)
-        
-        if self.today.weekday() >= 5:  # Hafta sonu
-            message = f"📅 *{self.today.strftime('%d.%m.%Y')} {day_tr}*\n\n🏡 Hafta sonu, yemek servisi bulunmamaktadır.\n\nİyi hafta sonları! 🌸"
-        else:
-            message = f"❓ *{self.today.strftime('%d.%m.%Y')} {day_tr}*\n\n🤔 Bu tarih için menü bulunamadı.\n\n🍕 Dışarıdan sipariş günü olabilir!"
-        
-        payload = {
-            "channel": self.slack_channel,
-            "username": "Yemek Bot 🍽️",
-            "icon_emoji": ":question:",
-            "text": message
-        }
-        
-        try:
-            response = requests.post(self.slack_webhook, json=payload, timeout=10)
-            return response.status_code == 200
-        except:
-            return False
+
     
     def run(self):
         """Ana çalıştırma fonksiyonu"""
@@ -259,9 +208,8 @@ class OfisYemekBot:
                     print("❌ Slack bildirimi gönderilemedi")
                     return 1
             else:
-                # Menü yoksa bilgi mesajı gönder
-                self.send_no_menu_message()
-                print("ℹ️ Menü bulunamadı, bilgi mesajı gönderildi")
+                # Menü yoksa sessizce geç (hafta sonu, tatil, vs.)
+                print("ℹ️ Menü bulunamadı - mesaj gönderilmiyor")
                 return 0
                 
         except Exception as e:
