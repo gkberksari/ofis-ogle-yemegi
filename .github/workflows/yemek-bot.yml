@@ -34,6 +34,6 @@ jobs:
     - name: Yemek Menüsü Bot'u çalıştır
       env:
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        SLACK_CHANNEL: '#yemek'
+        SLACK_CHANNEL: '#ogle-yemegi'
         TEST_DATE: ${{ github.event.inputs.test_date || '' }}
       run: python yemek_bot.py
