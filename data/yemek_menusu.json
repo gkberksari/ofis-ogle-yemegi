@@ -1,0 +1,313 @@
+{
+  "2025-08-01": {
+    "tarih": "01.08.2025 Cuma",
+    "gun": "Cuma",
+    "corbalar": [],
+    "ana_yemekler": ["Terbiyeli Köfte"],
+    "yan_yemekler": ["Su Böreği"],
+    "salatalar": ["Çoban Salata"],
+    "tatlilar": ["Karpuz"],
+    "kalori": "1390 kcal"
+  },
+  "2025-08-02": {
+    "tarih": "02.08.2025 Cumartesi",
+    "gun": "Cumartesi",
+    "corbalar": ["Tarhana Çorbası"],
+    "ana_yemekler": ["Kürdan Köfte"],
+    "yan_yemekler": ["Bulgur Pilavı"],
+    "salatalar": ["Kuru Cacık"],
+    "tatlilar": [],
+    "kalori": "1295 kcal"
+  },
+  "2025-08-03": {
+    "tarih": "03.08.2025 Pazar",
+    "gun": "Pazar",
+    "corbalar": [],
+    "ana_yemekler": ["Etli Patates"],
+    "yan_yemekler": ["Peynirli Makarna"],
+    "salatalar": ["Cacık"],
+    "tatlilar": ["Şekerpare"],
+    "kalori": "1390 kcal"
+  },
+  "2025-08-04": {
+    "tarih": "04.08.2025 Pazartesi",
+    "gun": "Pazartesi",
+    "corbalar": ["Anadolu Çorbası"],
+    "ana_yemekler": ["Fırın Sebzeli Etli Güveç"],
+    "yan_yemekler": ["Şehriye Pirinç Pilavı"],
+    "salatalar": ["Cacık"],
+    "tatlilar": [],
+    "kalori": "1490 kcal"
+  },
+  "2025-08-05": {
+    "tarih": "05.08.2025 Salı",
+    "gun": "Salı",
+    "corbalar": [],
+    "ana_yemekler": ["Zeytinyağlı Nohut"],
+    "yan_yemekler": ["Domatesli Bulgur Pilavı"],
+    "salatalar": ["Yoğurt"],
+    "tatlilar": ["Lor Tatlısı"],
+    "kalori": "1304 kcal"
+  },
+  "2025-08-06": {
+    "tarih": "06.08.2025 Çarşamba",
+    "gun": "Çarşamba",
+    "corbalar": ["Yayla Çorbası"],
+    "ana_yemekler": ["Garnitürlü Çıtır Piliç"],
+    "yan_yemekler": ["Mantarlı Soslu Makarna"],
+    "salatalar": ["Ayran"],
+    "tatlilar": [],
+    "kalori": "1385 kcal"
+  },
+  "2025-08-07": {
+    "tarih": "07.08.2025 Perşembe",
+    "gun": "Perşembe",
+    "corbalar": ["Şehriye Çorbası"],
+    "ana_yemekler": ["Yoğurtlu Zeytinyağlı Dolma"],
+    "yan_yemekler": ["Kalem Böreği"],
+    "salatalar": [],
+    "tatlilar": ["Supangle"],
+    "kalori": "1425 kcal"
+  },
+  "2025-08-08": {
+    "tarih": "08.08.2025 Cuma",
+    "gun": "Cuma",
+    "corbalar": [],
+    "ana_yemekler": ["Püreli Hasanpaşa Köfte"],
+    "yan_yemekler": ["Bulgur Pilavı"],
+    "salatalar": ["Kuru Cacık"],
+    "tatlilar": ["Meyve"],
+    "kalori": "1385 kcal"
+  },
+  "2025-08-09": {
+    "tarih": "09.08.2025 Cumartesi",
+    "gun": "Cumartesi",
+    "corbalar": ["Domates Çorbası"],
+    "ana_yemekler": ["Etli Mantı"],
+    "yan_yemekler": ["Zeytinyağlı Taze Börülce"],
+    "salatalar": [],
+    "tatlilar": ["Cevizli Brownie"],
+    "kalori": "1395 kcal"
+  },
+  "2025-08-10": {
+    "tarih": "10.08.2025 Pazar",
+    "gun": "Pazar",
+    "corbalar": [],
+    "ana_yemekler": ["Orman Kebabı"],
+    "yan_yemekler": ["Pirinç Pilavı"],
+    "salatalar": ["Yoğurt"],
+    "tatlilar": ["Meyve"],
+    "kalori": "1287 kcal"
+  },
+  "2025-08-11": {
+    "tarih": "11.08.2025 Pazartesi",
+    "gun": "Pazartesi",
+    "corbalar": [],
+    "ana_yemekler": ["Kuru Fasulye"],
+    "yan_yemekler": ["Bulgur Pilavı"],
+    "salatalar": ["Yoğurt"],
+    "tatlilar": ["Saray Burma"],
+    "kalori": "1321 kcal"
+  },
+  "2025-08-12": {
+    "tarih": "12.08.2025 Salı",
+    "gun": "Salı",
+    "corbalar": ["Tavuksuyu Çorba"],
+    "ana_yemekler": ["Yoğurtlu Karışık Kızartma"],
+    "yan_yemekler": ["Su Böreği"],
+    "salatalar": [],
+    "tatlilar": ["Karpuz"],
+    "kalori": "1304 kcal"
+  },
+  "2025-08-13": {
+    "tarih": "13.08.2025 Çarşamba",
+    "gun": "Çarşamba",
+    "corbalar": ["Şehriye Çorbası"],
+    "ana_yemekler": ["İskender Döner"],
+    "yan_yemekler": [],
+    "salatalar": ["Mevsim Salata"],
+    "tatlilar": ["Şöbiyet"],
+    "kalori": "1321 kcal"
+  },
+  "2025-08-14": {
+    "tarih": "14.08.2025 Perşembe",
+    "gun": "Perşembe",
+    "corbalar": ["Yayla Çorbası"],
+    "ana_yemekler": ["Garnitürlü Fırın Special But"],
+    "yan_yemekler": ["Peynirli Erişte"],
+    "salatalar": ["Çoban Salata"],
+    "tatlilar": [],
+    "kalori": "1304 kcal"
+  },
+  "2025-08-15": {
+    "tarih": "15.08.2025 Cuma",
+    "gun": "Cuma",
+    "corbalar": [],
+    "ana_yemekler": ["Püreli Misket Köfte"],
+    "yan_yemekler": ["Körili Bulgur Pilavı"],
+    "salatalar": ["Yoğurt"],
+    "tatlilar": ["Havuç Dilim Baklava"],
+    "kalori": "1321 kcal"
+  },
+  "2025-08-16": {
+    "tarih": "16.08.2025 Cumartesi",
+    "gun": "Cumartesi",
+    "corbalar": [],
+    "ana_yemekler": ["Zeytinyağlı Bamya"],
+    "yan_yemekler": ["Şehriye Pirinç Pilavı"],
+    "salatalar": ["Yoğurt"],
+    "tatlilar": ["Kalburabastı"],
+    "kalori": "1360 kcal"
+  },
+  "2025-08-17": {
+    "tarih": "17.08.2025 Pazar",
+    "gun": "Pazar",
+    "corbalar": [],
+    "ana_yemekler": ["Çiftlik Kebabı"],
+    "yan_yemekleri: ["Bulgur Pilavı"],
+    "salatalar": ["Yoğurtlu Patlıcan"],
+    "tatlilar": ["Meyve"],
+    "kalori": "1286 kcal"
+  },
+  "2025-08-18": {
+    "tarih": "18.08.2025 Pazartesi",
+    "gun": "Pazartesi",
+    "corbalar": ["Mercimek Çorbası"],
+    "ana_yemekler": ["Peynir Üstü Et Kavurma"],
+    "yan_yemekler": [],
+    "salatalar": ["Ayran"],
+    "tatlilar": ["Mozaik Pasta"],
+    "kalori": "1360 kcal"
+  },
+  "2025-08-19": {
+    "tarih": "19.08.2025 Salı",
+    "gun": "Salı",
+    "corbalar": ["Yayla Çorbası"],
+    "ana_yemekler": ["Körili Piliç"],
+    "yan_yemekler": ["Domatesli Bulgur Pilavı"],
+    "salatalar": [],
+    "tatlilar": ["Meyve"],
+    "kalori": "1304 kcal"
+  },
+  "2025-08-20": {
+    "tarih": "20.08.2025 Çarşamba",
+    "gun": "Çarşamba",
+    "corbalar": [],
+    "ana_yemekler": ["Zeytinyağlı Taze Fasulye"],
+    "yan_yemekler": ["Tereyağlı Pirinç Pilavı"],
+    "salatalar": ["Yoğurtlu Cevizli Kabak"],
+    "tatlilar": ["Cevizli Browni"],
+    "kalori": "1321 kcal"
+  },
+  "2025-08-21": {
+    "tarih": "21.08.2025 Perşembe",
+    "gun": "Perşembe",
+    "corbalar": ["Kremalı Sebze Çorbası"],
+    "ana_yemekler": ["Püreli Dalyan Köfte"],
+    "yan_yemekler": ["Napoletana Soslu Makarna"],
+    "salatalar": ["Ayran"],
+    "tatlilar": [],
+    "kalori": "1425 kcal"
+  },
+  "2025-08-22": {
+    "tarih": "22.08.2025 Cuma",
+    "gun": "Cuma",
+    "corbalar": [],
+    "ana_yemekler": ["Yaz Nohutlu Köylü Pilavı"],
+    "yan_yemekler": [],
+    "salatalar": ["Yoğurt"],
+    "tatlilar": ["Kekli Supangle"],
+    "kalori": "1287 kcal"
+  },
+  "2025-08-23": {
+    "tarih": "23.08.2025 Cumartesi",
+    "gun": "Cumartesi",
+    "corbalar": ["Mercimek Çorbası"],
+    "ana_yemekler": ["Garnitürlü Karışık Pizza"],
+    "yan_yemekler": ["Tava Patates"],
+    "salatalar": ["Ayran"],
+    "tatlilar": [],
+    "kalori": "1420 kcal"
+  },
+  "2025-08-24": {
+    "tarih": "24.08.2025 Pazar",
+    "gun": "Pazar",
+    "corbalar": [],
+    "ana_yemekler": ["Mevsim Türlü"],
+    "yan_yemekler": ["Bulgur Pilavı"],
+    "salatalar": ["Yoğurt"],
+    "tatlilar": ["Kalburabastı"],
+    "kalori": "1287 kcal"
+  },
+  "2025-08-25": {
+    "tarih": "25.08.2025 Pazartesi",
+    "gun": "Pazartesi",
+    "corbalar": ["Domates Çorbası"],
+    "ana_yemekler": ["Etli Mantı"],
+    "yan_yemekler": ["Börülce Piyazı"],
+    "salatalar": [],
+    "tatlilar": ["Panna Cotta"],
+    "kalori": "1360 kcal"
+  },
+  "2025-08-26": {
+    "tarih": "26.08.2025 Salı",
+    "gun": "Salı",
+    "corbalar": ["Tarhana Çorbası"],
+    "ana_yemekler": ["Zeytinyağlı Kabak"],
+    "yan_yemekler": ["Kıymalı Makarna"],
+    "salatalar": ["Yoğurt"],
+    "tatlilar": [],
+    "kalori": "1287 kcal"
+  },
+  "2025-08-27": {
+    "tarih": "27.08.2025 Çarşamba",
+    "gun": "Çarşamba",
+    "corbalar": ["Mercimek Çorbası"],
+    "ana_yemekler": ["Kağıt Kebabı"],
+    "yan_yemekler": ["Tereyağlı Pirinç Pilavı"],
+    "salatalar": ["Çoban Salata"],
+    "tatlilar": [],
+    "kalori": "1390 kcal"
+  },
+  "2025-08-28": {
+    "tarih": "28.08.2025 Perşembe",
+    "gun": "Perşembe",
+    "corbalar": ["Yayla Çorbası"],
+    "ana_yemekler": ["Garnitürlü Çıtır Piliç"],
+    "yan_yemekler": ["Fesleğen Soslu Makarna"],
+    "salatalar": [],
+    "tatlilar": ["Cevizli Baklava"],
+    "kalori": "1304 kcal"
+  },
+  "2025-08-29": {
+    "tarih": "29.08.2025 Cuma",
+    "gun": "Cuma",
+    "corbalar": ["Kremalı Sebze Çorbası"],
+    "ana_yemekler": ["Fırın Köfte Patates"],
+    "yan_yemekler": ["Bulgur Pilavı"],
+    "salatalar": ["Yoğurt"],
+    "tatlilar": [],
+    "kalori": "1347 kcal"
+  },
+  "2025-08-30": {
+    "tarih": "30.08.2025 Cumartesi",
+    "gun": "Cumartesi",
+    "corbalar": [],
+    "ana_yemekler": [],
+    "yan_yemekler": [],
+    "salatalar": [],
+    "tatlilar": [],
+    "kalori": "",
+    "ozel_durum": "RESMİ TATİL"
+  },
+  "2025-08-31": {
+    "tarih": "31.08.2025 Pazar",
+    "gun": "Pazar",
+    "corbalar": ["Domates Çorbası"],
+    "ana_yemekler": ["Garnitürlü Karışık Pizza"],
+    "yan_yemekler": ["Tava Patates"],
+    "salatalar": ["Ayran"],
+    "tatlilar": [],
+    "kalori": "1427 kcal"
+  }
+}
