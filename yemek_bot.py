@@ -7,7 +7,7 @@ from typing import Dict, Optional
 class OfisYemekBot:
     def __init__(self):
         self.slack_webhook = os.getenv('SLACK_WEBHOOK_URL')
-        self.slack_channel = os.getenv('SLACK_CHANNEL', '#yemek')
+        self.slack_channel = os.getenv('SLACK_CHANNEL', '#ogle-yemegi')
         self.test_date = os.getenv('TEST_DATE', '')
         
         # Bugünün tarihini al (veya test tarihi)
