@@ -1,0 +1,39 @@
+name: Ofis Yemek Menüsü Bot
+
+on:
+  schedule:
+    # Her gün saat 11:00'da çalış (UTC 08:00 = TR 11:00)
+    - cron: '0 8 * * 1-5'  # Hafta içi sadece (Pazartesi-Cuma)
+  
+  # Manuel tetikleme
+  workflow_dispatch:
+    inputs:
+      test_date:
+        description: 'Test için tarih (YYYY-MM-DD formatında, örn: 2025-08-01)'
+        required: false
+        default: ''
+
+jobs:
+  yemek-bildirimi:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout kod
+      uses: actions/checkout@v4
+    
+    - name: Python kurulumu
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Bağımlılıkları yükle
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Yemek Menüsü Bot'u çalıştır
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        SLACK_CHANNEL: '#yemek'
+        TEST_DATE: ${{ github.event.inputs.test_date || '' }}
+      run: python yemek_bot.py
