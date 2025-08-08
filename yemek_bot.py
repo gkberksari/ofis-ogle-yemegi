@@ -169,8 +169,8 @@ class OfisYemekBot:
         
         payload = {
             "channel": self.slack_channel,
-            "username": "Yemek Bot 🍽️",
-            "icon_emoji": ":fork_and_knife:",
+            "username": "Somer",
+            "icon_emoji": ":smirk_cat:",
             "blocks": blocks
         }
         
